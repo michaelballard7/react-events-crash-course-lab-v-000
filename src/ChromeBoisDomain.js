@@ -11,7 +11,7 @@ export default class ChromeBoisDomain extends Component {
      * (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
      */
      let x = event.target.clientX
-     let y = event.target.clientY
+     let y = event.target.clientY   
      console.log(x)
     //  drawChromeBoiAtCoords(x,y)
   }
