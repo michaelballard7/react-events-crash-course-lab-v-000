@@ -16,10 +16,13 @@ export default class ChromeBoisDomain extends Component {
      drawChromeBoiAtCoords(x,y);
   }
 
+  toggleCycling = (event) => {
   /* TODO: Create an event handler which, when fired, invokes the provided
    * `toggleCycling` function with no arguments. Don't forget the click event
    * listener that should fire it!
    */
+
+   }
 
   /* TODO: Add an event listener to the `<canvas>` element to capture when a key
   /* is pressed. When a key is pressed, an event handler should invoke the
