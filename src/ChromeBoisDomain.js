@@ -22,7 +22,6 @@ export default class ChromeBoisDomain extends Component {
    * listener that should fire it!
    */
     func()
-
    }
 
   /* TODO: Add an event listener to the `<canvas>` element to capture when a key
