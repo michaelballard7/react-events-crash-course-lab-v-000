@@ -28,12 +28,16 @@ export default class ChromeBoisDomain extends Component {
   /* if the key pressed was 'a', then it should call `resize` with '+'
   /* if the key pressed was 's', then it should call `resize` with '-'
    */
+   handleKeyPress = (e) => {
+       if (e.key)
+   }
 
   render() {
     return (
       <canvas
         onClick={ toggleCycling()}
         onMouseMove={this.handleMouseMove}
+        onKeyPress={this.handleKeyPress}
         width='900'
         height='600'
         tabIndex="0">
